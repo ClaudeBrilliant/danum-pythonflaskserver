@@ -1,4 +1,5 @@
 from flask import Flask
+
 app = Flask("My Flask Application")
 
 @app.route("/")
@@ -7,4 +8,4 @@ def hello():
 
 if __name__=="__main__":
     app.run(debug=True) 
-    # When no port is specified, starts at default port 5000    
+    # When no port is specified, starts at default port 5000
